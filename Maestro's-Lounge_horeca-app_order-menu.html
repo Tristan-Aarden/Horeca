@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+
+<head>
+
+  <!--Meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maestro's Lounge - Relax , Eat, Have fun">
+  <meta name="keywords" content="cafe, bar, lounge, eten, drinken">
+  <meta name="author" content="Tristan Aarden">
+
+  <!--Stylesheets-->
+  <link rel="stylesheet" href="./order-menu_style.css">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./Horeca-app_Tristan-Aarden.js"></script>
+
+  <!--Title-->
+  <title>Maestro's Lounge</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Maestro's Lounge</h1>
+  </header>
+  <main id="hide">
+
+    <section class="holder">
+      <div class="row">
+        <button id="order" class="blocky" type="button" name="button">
+          <img src="" height="50px" width="50px" alt="">
+          <p>Bestel</p>
+        </button>
+
+        <button class="blocky" type="button" name="button">
+          <img src="Cooking-Tools.png" alt="" height="50px" width="50px">
+          <p>Menu</p>
+        </button>
+      </div>
+      <div class="row">
+        <button id="order" class="blocky" type="button" name="button">
+          <img src="" height="50px" width="50px" alt="">
+          <p>Ober</p>
+        </button>
+
+        <button class="blocky" type="button" name="button">
+          <img src="" alt="" height="50px" width="50px">
+          <p>Bestellingen</p>
+        </button>
+      </div>
+
+    </section>
+  </main>
+  <section id="rekening">
+    <section class="bill">
+      <div class="center">
+        <h3>Maestro's Lounge</h3>
+        <p id="currentDate"></p>
+
+      </div>
+      <hr>
+      <table>
+        <tbody>
+          <tr>
+
+            <th>Aantal</th>
+
+            <th>Beschrijving</th>
+
+            <th>Prijs p/s</th>
+
+            <th>Totaal</th>
+
+          </tr>
+          <tr>
+            <td>
+              <p id="amount-fris"></p>
+            </td>
+            <td>
+              <p id="thing-fris"></p>
+            </td>
+            <td>
+              <p id="pricePiece-fris"></p>
+            </td>
+            <td>
+              <p id="price-fris"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p id="amount-bier"></p>
+            </td>
+            <td>
+              <p id="thing-bier"></p>
+            </td>
+            <td>
+              <p id="pricePiece-bier"></p>
+            </td>
+            <td>
+              <p id="price-bier"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p id="amount-wijn"></p>
+            </td>
+            <td>
+              <p id="thing-wijn"></p>
+            </td>
+            <td>
+              <p id="pricePiece-wijn"></p>
+            </td>
+            <td>
+              <p id="price-wijn"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p id="amount-bitter_8"></p>
+            </td>
+            <td>
+              <p id="thing-bitter_8"></p>
+            </td>
+            <td>
+              <p id="pricePiece-bitter_8"></p>
+            </td>
+            <td>
+              <p id="price-bitter_8"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p id="amount-bitter_16"></p>
+            </td>
+            <td>
+              <p id="thing-bitter_16"></p>
+            </td>
+            <td>
+              <p id="pricePiece-bitter_16"></p>
+            </td>
+            <td>
+              <p id="price-bitter_16"></p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <hr>
+              <p>Totaal excl. BTW</p>
+            </td>
+            <td>
+              <hr>
+              <p id='nett-total'></p>
+            </td>
+          </tr>
+          <tr id="btw-rij-9">
+            <td></td>
+            <td></td>
+            <td>
+              <p>BTW 9%</p>
+            </td>
+            <td>
+              <p id="btw-9"></p>
+            </td>
+          </tr>
+          <tr id="btw-rij-21">
+            <td></td>
+            <td></td>
+            <td>
+              <p>BTW 21%</p>
+            </td>
+            <td>
+              <p id="btw-21"></p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <p>BTW Totaal</p>
+            </td>
+            <td>
+              <p id="btw-totaal"></p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <hr>
+              <p>Totaal incl. BTW</p>
+            </td>
+            <td>
+              <hr>
+              <p id="final-total"></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+    </section>
+  </section>
+  <footer>
+  </footer>
+
+</body>
+
+</html>
